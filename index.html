@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body>
+    <nav class="flex items-center justify-between py-[40px] px-[145px] max-md:p-4">
+        <div class="max-md:flex max-md:gap-[170px]">
+            <img class="h-[40px] max-md:h-[25px]" src="/images/logo-bookmark.svg" alt="">
+            <img id="navbar" class=" hidden max-md:flex max-md:h-[20px]" src="/images/icon-hamburger.svg" alt="">
+        </div>
+            <ul id="mobile" class="max-md:hidden flex items-center list-none gap-[30px] text-[17px] max-md:flex-col max-md:bg-blue-500 max-md:absolute max-md:text-[white] max-md:right-0 max-md:top-[9%] max-md:z-[9] max-md:w-full max-md:h-[48vh] max-md:opacity-80 max-md:text-[22px] max-md:font-bold">
+                <img id="close" class="h-[30vw] hidden max-md:flex max-md:h-[40px] max-md:relative left-[170px] py-[10px]" src="/images/icon-close.svg" alt="">
+                <li class="cursor-pointer hover:text-[blue]"> FEATURES</li>
+                <li class="cursor-pointer hover:text-[blue]">PRICING</li>
+                <li class="cursor-pointer hover:text-[blue]">CONTACT</li>
+                <button class="text-white rounded-md bg-[red] px-[20px] py-[6px] hover:bg-[blue] max-md:text-[white] max-md:px-[100px] max-md:py-[3px] max-md:bg-transparent max-md:border-4 max-md:border-[white]">Login</button>
+            </ul>
+    </nav>
+    <div class="mt-[80px] flex items-center justify-around max-md:flex-col-reverse max-md:text-center max-md:items-center">
+        <div class="flex flex-col gap-[30px] max-md:mt-[50px]">
+            <h1 class="text-[50px] w-[25vw] font-bold max-md:w-[90vw] max-md:text-[35px]">A Simple Bookmark Manager</h1>
+            <p class="w-[27vw] text-[20px] max-md:w-[90vw]">A clean and simple interface to organize your favourite websites. Open a new 
+            browser tab and see your sites load instantly. Try it for free.</p>
+           <div class="flex items-center gap-[20px]">
+            <button class="bg-[blue] rounded-md text-white px-[18px] py-[8px] hover:bg-white border-4 border-[blue] hover:text-[blue]">Get it on Chrome</button>
+            <button class="px-[18px] rounded-md py-[8px] bg-yellow-100 text-black hover:border-4 border-[blue]">Get it on Firefox</button>
+           </div>
+        </div>
+        <img class="h-[60vh] relative z-[1] max-md:h[40vh]" src="/images/illustration-hero.svg" alt="">
+           <div class="absolute right-0 bottom-[80px] w-[35%] max-md:w-[40%] h-[40vh]">
+            <h1 class=" bg-[blue] h-[40vh] rounded-l-full text-[blue]">Bookmark</h1>
+           </div>
+    </div>
+    <div class="flex flex-col justify-center items-center gap-[30px]">
+        <div class="flex flex-col text-center max-md:mt-[50px]">
+            <h1 class="text-[30px] font-bold">Features</h1>
+            <p class="w-[24vw] max-md:w-[90vw] max-md:text-[20px]">Our aim is to make it quick and easy for you to access your favourite websites. 
+                Your bookmarks sync between your devices so you can access them on the go.</p>
+        </div>
+        <div>
+            <div class="flex items-center gap-[30px] font-medium max-md:flex-col max-md:text-[20px]">
+                <p class="border-b-2 cursor-pointer hover:text-[blue] border-red-600 py-3"><a href="/index.html">Simple Bookmarking</a></p>
+                <p class="cursor-pointer hover:text-[blue]"><a href="/speedy.html">Speedy Searching</a></p>
+                <p class="cursor-pointer hover:text-[blue]"><a href="/easy.html">Easy Sharing</a></p>
+            </div>
+            <hr class="bg-black">
+        </div>
+        <div class="flex items-center gap-[350px] max-md:items-center max-md:flex-col max-md:gap-[50px]">
+            <div class="absolute left-0 w-[35%] max-md:w-[80%]">
+                <h1 class=" relative bg-[blue] h-[40vh] top-[80px] rounded-r-full text-[blue]">Bookmark</h1>
+            </div>
+                <img class="h-[60vh] relative z-[1] max-md:h-[50vh] max-md:w-[90%]" src="/images/illustration-hero.svg" alt="">
+           <div class="flex flex-col gap-[20px] max-md:items-center max-md:text-center">   
+            <h1 class="text-[30px] font-bold">Bookmark in one click</h1>
+            <p class="w-[27vw] text-[20px] max-md:w-[90vw]">Organize your bookmarks however you like. Our simple drag-and-drop interface 
+                gives you complete control over how you manage your favourite sites.</p>
+                <button class="bg-[blue] w-[30%] max-md:w-[40%] rounded-md text-white px-[18px] py-[8px]  hover:bg-white border-4 border-[blue] hover:text-[blue]">More Info</button>
+            </div>
+        </div>
+    <div class="flex flex-col text-center items-center gap-[20px] mt-[100px]">
+        <h1 class="text-[30px] font-bold">Download the extension</h1>
+        <p class="w-[25vw] text-[20px max-md:w-[80vw] max-md:text-[20px]">  We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+            got a favourite you’d like us to prioritize.</p>
+    </div>
+    <div class="flex items-center gap-[40px] mt-[100px] max-md:flex-col">
+        <div class="flex flex-col gap-[20px] items-center text-center bg-[white] shadow-lg p-[20px]">
+            <img class="w-[5vw] max-md:w-[30vw]" src="/images/logo-chrome.svg" alt="">
+            <div class="flex flex-col gap-[20px]">
+                <h1 class="text-[22px] font-bold">Add to Chrome</h1>
+                <p class="text-[18px]">Minimum version 62</p>
+            </div>
+            <div class="flex flex-col gap-[20px]">
+                <img src="/images/bg-dots.svg" alt="">
+                <button class="bg-[blue] rounded-md text-white px-[30px] py-[10px]">Add & Install Extension</button>
+            </div>
+        </div>
+        <div class="flex flex-col gap-[20px] items-center text-center bg-[white] shadow-lg p-[20px] relative top-[30px]">
+            <img class="w-[5vw] max-md:w-[30vw]" src="/images/logo-firefox.svg" alt="">
+            <div class="flex flex-col gap-[20px]">
+                <h1 class="text-[22px] font-bold">Add to Firefox</h1>
+                <p class="text-[18px]">Minimum version 55</p>
+            </div>
+            <div class="flex flex-col gap-[20px]">
+                <img src="/images/bg-dots.svg" alt="">
+                <button class="bg-[blue] rounded-md text-white px-[30px] py-[10px]">Add & Install Extension</button>
+            </div>
+        </div>
+        <div class="flex flex-col gap-[20px] items-center text-center bg-[white] shadow-lg p-[20px] relative top-[60px]">
+            <img class="w-[5vw] max-md:w-[30vw]" src="/images/logo-opera.svg" alt="">
+            <div class="flex flex-col gap-[20px]">
+                <h1 class="text-[22px] font-bold">Add to Opera</h1>
+                <p class="text-[18px]">Minimum version 46</p>
+            </div>
+            <div class="flex flex-col gap-[20px]">
+                <img src="/images/bg-dots.svg" alt="">
+                <button class="bg-[blue] rounded-md text-white px-[30px] py-[10px]">Add & Install Extension</button>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col items-center gap-[40px]">
+        <div class="flex flex-col text-center gap-[20px] mt-[100px] max-md:text-center max-md:items-center">
+            <h1 class="text-[30px] font-bold max-md:text-[25px] max-md:w-[80vw]">Frequently Asked Questions</h1>
+            <p class="w-[23vw] text-[20px] max-md:w-[85vw]">Here are some of our FAQs. If you have any other questions you’d like 
+                answered please feel free to email us.</p>
+        </div>
+        <div class="flex flex-col gap-[20px]">
+            <hr>
+                <div id="" class="flex flex-col gap-[20px]">
+                    <div id="ads" class=" flex items-center cursor-pointer justify-between gap-[40px]">
+                        <h1>What is Bookmark?</h1>
+                        <img class="w-[20px]" src="/images/icon-arrow.svg" alt="">
+                    </div>
+                        <p id="anim" class=" w-[25vw] hidden max-md:w-[90vw]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+                        justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
+                        </p>
+                </div>
+            <hr>
+                <div id="ads" class="flex items-center cursor-pointer justify-between gap-[40px]">
+                    <h1>How can I request a new browser?</h1>
+                    <img class="w-[20px]" src="/images/icon-arrow.svg" alt="">
+                </div>
+                <p id="anim" class="w-[25vw] hidden max-md:w-[90vw]">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+                    Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
+                    ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+                    Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+            <hr>
+                <div id="ads" class="flex items-center cursor-pointer justify-between gap-[40px]">
+                    <h1> Is there a mobile app?</h1>
+                    <img class="w-[20px]" src="/images/icon-arrow.svg" alt="">
+                </div>
+                <p id="anim" class="w-[25vw] hidden max-md:w-[90vw]">Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+                    urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+                    sollicitudin ex et ultricies bibendum.</p>
+            <hr>
+                <div id="ads" class="flex cursor-pointer items-center justify-between gap-[40px]">
+                    <h1>What about other Chromium browsers?</h1>
+                    <img class="w-[20px]" src="/images/icon-arrow.svg" alt="">
+                </div>
+                <p id="anim" class="w-[25vw] hidden max-md:w-[90vw]">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+                    vitae neque eget nisl gravida pellentesque non ut velit.</p>
+            <hr>
+            <div class="flex flex-col items-center justify-center">
+                <button class="bg-[blue] w-[45%] rounded-md text-white px-[35px] py-[10px]  hover:bg-white border-4 border-[blue] hover:text-[blue]">More Info</button>
+            </div>
+        </div>
+    </div>
+    <footer class="flex flex-col text-center items-center justify-center gap-[30px] bg-[blue] w-[100%] h-[40vh]">
+        <h1 class="tracking-widest text-white">35,000+ ALREADY JOINED</h1>
+        <h1 class="text-[30px] w-[20vw] text-white max-md:w-[90vw]">Stay up-to-date with what we’re doing</h1>
+        <div class="flex  justify-center gap-[20px] max-md:flex-col max-md:items-center">
+            <input class="w-[100%] h-[40px] outline-none rounded-md px-[20px] max-md:w-[100%]" type="email" name="" id="" placeholder="Enter your email address">
+            <button class="bg-[red] text-[white] px-[20px] py-[10px] w-[60%] max-md:w-[90%] rounded-md border-none hover:bg-white hover:text-[blue]">Contact Us</button>
+        </div>
+    </footer>
+    <script src="/book.js"></script>
+</body>
+</html>
